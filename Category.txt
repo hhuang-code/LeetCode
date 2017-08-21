@@ -1,0 +1,4 @@
+1)  bitwise operation:
+    371
+2)  number theory
+    258
