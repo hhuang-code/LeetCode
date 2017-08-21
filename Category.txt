@@ -1,4 +1,4 @@
 1)  bitwise operation:
-    371
+    371 389
 2)  number theory:
     258
