@@ -2,3 +2,5 @@
     371 389
 2)  number theory:
     258
+3)  math tricks
+    453
