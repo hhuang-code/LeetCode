@@ -1,5 +1,5 @@
 1)  bitwise operation:
-    371 389
+    371 389 231
 2)  number theory:
     258
 3)  math tricks:
