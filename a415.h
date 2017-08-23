@@ -22,7 +22,7 @@ public:
         }
         
         if(num1[0] == '0'){
-            reverse(num1.begin(), num1.end());
+            reverse(num1.begin(), num1.end());  //reverse the string
             num1.pop_back();
             reverse(num1.begin(), num1.end());
         }
