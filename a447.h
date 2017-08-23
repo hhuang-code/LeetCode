@@ -20,13 +20,13 @@ public:
           map<long, int> m;
           for(int j = 0; j < num; j++){
             if(i != j){
-        m[dist[i][j]]++;
+              m[dist[i][j]]++;
             }
           }
           map<long, int>::iterator iter;
           for(iter = m.begin(); iter != m.end(); iter++){
             if(iter->second > 1){
-        sum += (iter->second * (iter->second - 1));
+              sum += (iter->second * (iter->second - 1));
             }
           }
         }
