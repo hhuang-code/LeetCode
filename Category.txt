@@ -8,3 +8,4 @@
     a)  vector: 349 217 504
     b)  hash: 387 506 409 350
     c)  bitset: 401
+    d)  string: 415
