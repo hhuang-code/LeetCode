@@ -6,5 +6,5 @@
     453
 4) STL:
     a)  vector: 349 217
-    b)  hash: 387 506 409
+    b)  hash: 387 506 409 350
     c)  bitset: 401
