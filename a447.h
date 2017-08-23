@@ -11,7 +11,7 @@ public:
         long d = 0;
         for(int i = 0; i < num; i++){
           for(int j = 0; j < num; j++){
-        dist[i][j] = pow((points[i].first - points[j].first), 2) + pow((points[i].second - points[j].second), 2);
+            dist[i][j] = pow((points[i].first - points[j].first), 2) + pow((points[i].second - points[j].second), 2);
           }
         }
 
