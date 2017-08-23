@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<string> findRelativeRanks(vector<int>& nums) {
-        	int len = nums.size();
+        int len = nums.size();
 	map<int, int> m;
 	for(int i = 0; i < len; i++){   //sort by key in ascending order automatically
 		m[nums[i]] = i;
