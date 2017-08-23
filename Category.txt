@@ -6,4 +6,4 @@
     453
 4) STL:
     a)  vector: 349
-    b)  hash: 387
+    b)  hash: 387 506
