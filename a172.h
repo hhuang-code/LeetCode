@@ -1,0 +1,15 @@
+class Solution {
+public:
+    int trailingZeroes(int n) {
+        while(n % 5){
+            n--;
+        }
+        int sum = 0;
+        while(n / 5){
+            sum += (n / 5);
+            n /= 5;
+        }
+        
+        return sum;
+    }
+};
