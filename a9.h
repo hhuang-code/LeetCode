@@ -1,25 +1,29 @@
 class Solution {
 public:
     bool isPalindrome(int x) {
-        int lpow = 1;
-        int upow = 1;
-        while(x / pow(10, upow)){
-            upow++;
-        }
-        upow--;
-        
-        int hi, lo;
-        while(x >= 10 || x <= -10){
-            hi = x / pow(10, upow);
-            lo = x % int(pow(10, lpow));
-            if(hi != lo){
-                return false;
-            }
-            x %= int(pow(10, upow));
-            x /= pow(10, lpow);
-            upow -= 2;
+        if(x < 0){
+           return false;
         }
         
-        return true;
+        long pow = 10;
+        while(x / pow){
+            pow *= 10;
+        }
+        pow /= 10;
+        
+        int ox, nx, mul;
+        ox = x;
+        nx = 0;
+        while(x){
+            nx += (x % 10) * pow;
+            x /= 10;
+            pow /= 10;
+        }
+
+        if(nx == ox){
+            return true;
+        }else{
+            return false;
+        }
     }
 };
