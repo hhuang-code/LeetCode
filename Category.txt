@@ -3,7 +3,7 @@
 2)  number theory:
     258
 3)  math tricks:
-    453 342 400
+    453 342 400 69
 4) STL:
     a)  vector: 349 217 504
     b)  hash: 387 506 409 350
