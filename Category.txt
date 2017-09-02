@@ -9,3 +9,4 @@
     b)  hash: 387 506 409 350
     c)  bitset: 401
     d)  string: 415
+    e)  set: 414
