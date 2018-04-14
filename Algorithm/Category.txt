@@ -10,3 +10,5 @@
     c)  bitset: 401
     d)  string: 415
     e)  set: 414
+5) binary tree:
+    617
