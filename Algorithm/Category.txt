@@ -11,5 +11,5 @@
     d)  string: 415
     e)  set: 414
     f)  map: 811
-5) binary tree:
-    617
+5) binary (search) tree:
+    617 669
